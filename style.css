@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Orliet Pro'; 
+    src: url('./OrlietProBold.ttf') format('truetype'); 
+    font-weight: bold; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Snell Roundhand';
+    src: url('./SnellRoundhand.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VCR OSD';
+    src: url('./VCR_OSD_MONO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('./Bebas.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Imperial';
+    src: url('./Imperial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Page 1 Styles  */
+
+.cats {
+    width: 100%;                
+    height: 100vh;              
+    object-fit: cover;          
+    object-position: center;    
+    position: absolute;         
+    top: 0;                     
+    left: 0;                    
+    z-index: 1;                 
+}
+
+.text1 {
+    position: absolute;
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%) scale(1.2); 
+    transition: transform 0.3s ease;
+    font-size: 100pt; 
+    font-family: 'Orliet Pro', sans-serif; 
+    font-weight: bold; 
+    color: #413627; 
+    z-index: 2; 
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.text1:hover {
+    transform: translateX(-50%) scale(1.3);
+    color: black; 
+}
+
+/* Page 2 Styles  */
+
+
+.stationery {
+    width: 100%;                
+    height: 100vh;              
+    object-fit: cover;          
+    object-position: center;    
+    position: absolute;         
+    top: 0;                     
+    left: 0;                    
+    z-index: 1;                 
+}
+
+.text2 {
+    position: absolute;
+    top: 0px; 
+    left: 90px;
+    transform: scale(1.2); 
+    transition: transform 0.3s ease;
+    font-size: 90pt; 
+    font-family: 'Snell Roundhand', serif; 
+    font-weight: 900;
+    color: #413627;
+    z-index: 2; 
+    text-align: left;  
+}
+
+.text2:hover {
+    transform: scale(1.3); 
+    color: black; 
+}
+
+/* Page  Styles 3 */
+
+
+.self-expression {
+    width: 100%;                
+    height: 100vh;              
+    object-fit: cover;          
+    object-position: center;    
+    position: absolute;         
+    top: 0;                     
+    left: 0;                    
+    z-index: 1;                 
+}
+
+.text3 {
+    position: absolute;
+    top: 55%; 
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2); 
+    transition: transform 0.3s ease;
+    font-size: 100pt; 
+    font-family: 'Snell Roundhand', serif; 
+    color: #288c28;
+    z-index: 2; 
+    text-align: left;  
+}
+
+.text3:hover {
+    transform: translate(-50%, -50%) scale(1.3); 
+    color: black; 
+}
+
+/* Page  Styles 4 */
+
+.trends {
+    width: 100%;                
+    height: 100vh;              
+    object-fit: cover;          
+    object-position: center;    
+    position: absolute;         
+    top: 0;                     
+    left: 0;                    
+    z-index: 1;                 
+}
+
+.text4 {
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2); 
+    transition: transform 0.3s ease;
+    font-size: 200pt; 
+    font-family: 'VCR OSD', sans-serif; 
+    color: white;
+    z-index: 2; 
+    text-align: center;  
+}
+
+.text4:hover {
+    transform: translate(-50%, -50%) scale(1.3); 
+    color: #c34a01; 
+}
+
+/* Page  Styles 5 */
+
+.massproduction {
+    width: 100%;                
+    height: 100vh;              
+    object-fit: cover;          
+    object-position: center;    
+    position: absolute;         
+    top: 0;                     
+    left: 0;                    
+    z-index: 1;                 
+}
+
+.text5 {
+    position: absolute;
+    top: 35%; 
+    left: 40%;
+    transform: translate(-50%, -50%) scale(1.2); 
+    transition: transform 0.3s ease;
+    font-size: 150pt; 
+    font-family: 'Bebas', sans-serif; 
+    color: black;
+    z-index: 2; 
+    text-align: left;  
+}  
+
+.text5:hover {
+    transform: translate(-50%, -50%) scale(1.3); 
+    color: #880000; 
+}
+
+/* Page  Styles 6 */
+
+.pollution {
+    width: 100%;                
+    height: 100vh;              
+    object-fit: cover;          
+    object-position: center;    
+    position: absolute;         
+    top: 0;                     
+    left: 0;                    
+    z-index: 1;                 
+}
+
+.text6 {
+    position: absolute;
+    top: 25%; 
+    left: 65%;
+    transform: translate(-50%, -50%) scale(1.2); 
+    transition: transform 0.3s ease;
+    font-size: 150pt; 
+    font-family: 'Imperial', sans-serif; 
+    color: white;
+    z-index: 2; 
+    text-align: left;  
+}  
+
+.text6:hover {
+    transform: translate(-50%, -50%) scale(1.3); 
+    color: #ffa5a5; 
+}
